@@ -8,6 +8,9 @@ public class Tests {
         Integer.decode("");
     }
 
+
+
+    //work pls
     @Test(expected = NumberFormatException.class)
     public void testStringWord(){
         Integer.decode("word");
